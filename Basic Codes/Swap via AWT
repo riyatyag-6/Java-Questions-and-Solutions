@@ -47,19 +47,13 @@ f.setSize(600, 600);
 f.setBackground(Color.green);
 
 f.setVisible(true);
-
 }
-
-
-
 public void paint(Graphics g)
 {
         Font fo = new Font("candela", Font.BOLD, 35);
         g.setFont(fo);
-
 }
-
- public void actionPerformed(ActionEvent e) {
+public void actionPerformed(ActionEvent e) {
 
 int a = Integer.parseInt(t1.getText());
 int b = Integer.parseInt(t2.getText());
